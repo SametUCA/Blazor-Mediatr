@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qoHU+ItQosMQIEzBJkhlUABw2rZXzbswuA7zFT549SMsJmUktWchNI3gJ5w9LEz3p4u/Gz8pX7v0zOdcXkQeOg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Samet UCA\\source\\repos\\BlazorMediatR\\BlazorMediatR\\BlazorMediatR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Samet UCA\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Samet UCA\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\Samet UCA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

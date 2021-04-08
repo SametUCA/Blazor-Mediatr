@@ -1,0 +1,34 @@
+﻿@page "/"
+
+@using BlazorMediatR.Data
+@inherits SelfContained
+
+    <h1>Blazor MediatR</h1> 
+
+@if (Model!=null)
+{
+<EditForm Model="Model">
+    <label for="role">Roles :</label>
+    <InputSelect id="role" @bind-Value="Model.SelectedRole">
+        <option value="">select Role</option>
+        @foreach (var role in Model.Roles)
+            {
+            <options value="@role">@role</options>
+            }
+
+    </InputSelect>
+    <label for="role">Names :</label>
+    <InputSelect id="name" @bind-Value="Model.SelectedName">
+        <option value="">select Name</option>
+        @foreach (var name in Model.Names)
+            {
+            <options value="@name">@name</options>
+            }
+
+    </InputSelect>
+    <button class="btn btn-danger" @onclick="@VerifySelections">Verify</button>
+</EditForm>
+<br />
+<br />
+<span><strong>Result :</strong>@Result</span>
+}
